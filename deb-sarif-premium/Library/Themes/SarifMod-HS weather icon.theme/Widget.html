@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang='en-US'>
+<head>
+	<meta charset="UTF-8"/>
+	<script src='../Sarif.theme/settings.js'></script>
+	<script src='../Sarif.theme/docs/js/jquery-1.9.1.js'></script>
+	<script src='../Sarif.theme/docs/js/simpleWeather.js'></script>
+	<script>
+		function setTop(){
+			weatherIconTop = weatherIconTop / 2;
+
+			var setTop = document.getElementById('hsweathericondiv');
+			setTop.style.margin=weatherIconTop+'px auto';
+		}
+		$(document).ready(setTop);
+		
+		function timedRefresh(timeoutPeriod) {
+			setTimeout('location.reload(true);',timeoutPeriod);
+		}
+	</script>
+	<style>
+		body{
+			width:320px;
+			margin:0px; padding:0px;
+			}
+
+		#weather{
+			position:absolute;
+			width:320px;
+			text-align:center;
+			}
+
+		#weather span{
+			display:none;
+			}
+	</style>
+</head>
+<body onload='timedRefresh(300000);'>
+	<div id='hsweathericondiv'>
+		<p id='weather'></p>
+	</div>
+</body>
+</html>

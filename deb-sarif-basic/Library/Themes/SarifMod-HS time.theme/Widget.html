@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<script src="../Sarif.theme/settings.js"></script>
+	<script src="../Sarif.theme/docs/js/jquery-1.9.1.js"></script>
+	<script src="../Sarif.theme/docs/js/letsGoTime.js"></script>
+	<script>
+		function setTop(){
+			clockTop = clockTop / 2;
+
+			var setTop = document.getElementById("hstimediv");
+			setTop.style.margin=clockTop+'px auto';
+
+			var setSize = document.getElementById("timetext");
+			setSize.style.fontSize=clockSize+'em';
+		}
+
+		function setStyle(){
+			var setClockStyle = document.getElementById("timetext");
+			setClockStyle.style.opacity=clockOpacity;
+
+			if (clockStyle == 'light'){
+				setClockStyle.style.color='rgba(255,255,255,0.75)';
+				setClockStyle.style.textShadow='1px 1px 0px rgba(0,0,0,0.25)';
+			}
+
+			else if (clockStyle == 'dark'){
+				setClockStyle.style.color='rgb(30,30,30)';
+				setClockStyle.style.textShadow='1px 1px 1px rgba(255,255,255,0.1), -1px -1px 1px rgba(0,0,0,0.1)';
+			}
+
+			else if (clockStyle == 'glow'){
+				setClockStyle.style.color='rgb(255,255,255)';
+				setClockStyle.style.textShadow='0px 0px 30px rgb(255,255,255)';
+				setClockStyle.style.fontFamily='HelveticaNeue-UltraLight';
+			}
+		}
+	</script>
+	<style>
+		body{
+			width:320px;
+			margin:0px; padding:0px;
+			font-family:Helvetica-Light;
+			}
+
+		#timetext{
+			position:absolute;
+			width:320px;
+			text-align:center;
+			letter-spacing:1px;
+			text-transform:lowercase;
+			}
+	</style>
+</head>
+<body onload="setTop(), setStyle()">
+	<div id="hstimediv">
+		<p id="timetext"><span id="printhour">hour</span> <span id="printminute">minute</span></p>
+	</div>
+</body>
+</html>

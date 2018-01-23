@@ -1,0 +1,10 @@
+Package: com.modmyi.sarifcolorkeyboarddark
+Name: Sarif ColorKeyboard dark
+Version: 2.3
+Architecture: iphoneos-arm
+Author: Cody-lg <contact@codylg.com>
+dev: Cody-lg
+Depends: net.9eye.colorkeyboard,com.modmyi.sarif
+Priority: extra
+Section: Addons (Color Keyboard)
+Description: Sarif ColorKeyboard addon.

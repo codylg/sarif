@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang="en-US">
+<head>
+	<script src="../Sarif.theme/settings.js"></script>
+	<script>
+		function setSize(){
+			panelHeight = (panelHeight - 200) / 2;
+			panelWidth = (panelWidth - 200) / 2;
+			panelTop = panelTop / 2;
+
+			var setHeight = document.getElementById("middlerow");
+			setHeight.style.height=panelHeight+'px';
+
+			var setWidth = document.getElementById("middlecolumn");
+			setWidth.style.width=panelWidth+'px';
+
+			var setTop = document.getElementById("paneltable");
+			setTop.style.margin=panelTop+'px auto';
+			}
+	</script>
+	<style>
+		body{
+			width:320px;
+			padding:0px; margin:0px;
+			}
+
+		img{
+			display:block;
+			width:100%; height:100%;
+			}
+
+		table{
+			border-collapse:collapse;
+			}
+		
+		td{
+			padding:0px;
+			}
+
+		.toprow td, .bottomrow td{
+			height:50px;
+			}
+
+		.leftcolumn, .rightcolumn{
+			width:50px;
+			}
+	</style>
+</head>
+<body onload="setSize()">
+		<table id="paneltable">
+			<tr class="toprow">
+				<td class="leftcolumn"><img src="panel-topleft.png"/></td>
+				<td id="middlecolumn"><img src="panel-top.png"/></td>
+				<td class="rightcolumn"><img src="panel-topright.png"/></td>
+			</tr>
+			<tr>
+				<td class="leftcolumn"><img id="middlerow" src="panel-left.png"/></td>
+				<td id="middlecolumn"><img id="middlerow" src="panel-middle.png"/></td>
+				<td class="rightcolumn"><img id="middlerow" src="panel-right.png"/></td>
+			</tr>
+			<tr class="bottomrow">
+				<td class="leftcolumn"><img src="panel-bottomleft.png"/></td>
+				<td id="middlecolumn"><img src="panel-bottom.png"/></td>
+				<td class="rightcolumn"><img src="panel-bottomright.png"/></td>
+			</tr>
+		</table>
+</body>
+</html>

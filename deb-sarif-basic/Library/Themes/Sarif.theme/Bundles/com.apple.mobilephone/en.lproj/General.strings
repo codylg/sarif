@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ADDRESS_BOOK</key>
+	<string> </string>
+	<key>CALL</key>
+	<string> </string>
+	<key>CALL_HISTORY</key>
+	<string> </string>
+	<key>DIALER</key>
+	<string> </string>
+	<key>SPEED_DIAL</key>
+	<string> </string>
+	<key>VOICEMAIL</key>
+	<string> </string>
+</dict>
+</plist>

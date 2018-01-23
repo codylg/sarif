@@ -1,0 +1,27 @@
+Alternate graphics exist for the following.
+They can be used by removing "_alt" from the file name.
+
+A list of alternate icons can be found at Sarif icon bundle.theme/Alt icons.txt
+
+
+Description					File name								Directory										Notes
+-----------					---------								---------										-----
+App panel glass				panel-bottomleft						../SarifMod-app panel glass.theme				Adds studs to the glass panel
+Camera grabber				CameraGrabber							Bundles/com.apple.springboard
+Dialer						dialerView-normal						Bundles/com.apple.mobilephone					Adds letters to the dialer buttons.
+							dialerView-pressed						
+Dialer (in call)			keypad									Bundles/com.apple.TelephonyUI					Adds letters to the dialer buttons.
+							keypad_pressed
+Dock reflection				SBDockMask								Bundles/com.apple.springboard					Removes the docked icon reflection.
+Lockscreen LCD				BarLCD									Bundles/com.apple.TelephonyUI					This will reposition secondary notifications to the top of the screen.
+																	../SarifMod LS clock panel.theme/
+																		Bundles/com.apple.TelephonyUI				This will increase the size of the clock panel to fit in the date.
+Message bubbles				Balloon_...								Bundles/com.apple.chatkit
+Passcode field				UIPasscodeFieldBackground				UIImages										Fix for non-simple passcodes and SIM pin.
+Passcode keypad				DeviceLockKeypad						Bundles/com.apple.springboard					Adds a translucent back for lighter wallpapers.
+Phone grabber				PhoneGrabber							Bundles/com.apple.TelephonyUI
+Pinstripe					UITableViewTexture						UIImages
+Slider groove				WellLock								Bundles/com.apple.TelephonyUI
+Snowcover case				SCCover...								Bundles/com.apple.springboard					Use this on 4th gen devices if having SC problems.
+Timebox						timebox									docs
+Timebox icon				icon									docs

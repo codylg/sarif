@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="docs/style.css"/>
+	<script src="./settings.js"></script>
+	<script src="docs/js/jquery-1.9.1.js"></script>
+	<script src="docs/js/letsGoTime.js"></script>
+	<script src="docs/js/simpleWeather.js"></script>
+	<script src="docs/js/LSsettings.js"></script>
+</head>
+<body ontouchstart="">
+	<div id="timediv">
+		<img id="timebox" src="docs/timebox.png"/>
+		<img id="icon" src="docs/icon.png"/><img id="icondate" src="docs/icondate.png"/>
+		<p id="timetext">The time is <span id="printhour">hour</span> <span id="printminute">minute</span></p>
+		<p id="datetext">and it's the <span id="printdate">date</span> of <span id="printmonth">month</span></p>
+	</div>
+
+	<div id="topslide"></div>
+	<div id="bottomslideleft"></div>
+	<div id="bottomslideright"></div>
+
+	<div id="backmaterial">
+		<p id="backtext">
+			<span id="printnumericalhour">00</span>:<span id="printnumericalminute">00</span><br/>
+			<span id="sliderdate"><span id="printbackdate">date</span> of <span id="printbackmonth">month</span><br/></span>
+			<span id="weather"></span>
+		</p>
+	</div>
+</body>
+</html>

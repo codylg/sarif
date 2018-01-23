@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../Sarif.theme/docs/style.css"/>
+	<script src="../Sarif.theme/settings.js"></script>
+	<script src="../Sarif.theme/docs/js/jquery-1.9.1.js"></script>
+	<script src="../Sarif.theme/docs/js/letsGoTime.js"></script>
+	<script src="../Sarif.theme/docs/js/simpleWeather.js"></script>
+	<script src="../Sarif.theme/docs/js/LSsettings.js"></script>
+	<style>
+		#statusbar{
+			position:absolute;
+			z-index:10;
+			left:0px; top:0px;
+			width:320px; height:20px;
+			}
+	</style>
+</head>
+<body ontouchstart="">
+	<img id="statusbar" src="statusbar.png"/>
+
+	<div id="timediv" style="display:none;">
+		<p id="timetext"><span id="printhour"></span><span id="printminute"></span></p>
+		<p id="datetext"><span id="printdate"></span><span id="printmonth"></span></p>
+	</div>
+
+	<div id="topslide"></div>
+	<div id="bottomslideleft"></div>
+	<div id="bottomslideright"></div>
+
+	<div id="backmaterial">
+		<p id="backtext">
+			<span id="printnumericalhour">00</span>:<span id="printnumericalminute">00</span><br/>
+			<span id="sliderdate"><span id="printbackdate">date</span> of <span id="printbackmonth">month</span><br/></span>
+			<span id="weather"></span>
+		</p>
+	</div>
+</body>
+</html>

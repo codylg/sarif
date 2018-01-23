@@ -1,0 +1,10 @@
+Package: com.modmyi.sarif
+Name: Sarif Premium
+Version: 2.3
+Architecture: iphoneos-arm
+Author: Cody-lg <contact@codylg.com>
+dev: Cody-lg
+Depends: winterboard,com.darkweaver.wallpaperjpegifier,com.codylg.sarifbasic,com.codylg.sarifprefs
+Priority: extra
+Section: Themes (Complete)
+Description: Sarif premium Winterboard theme.

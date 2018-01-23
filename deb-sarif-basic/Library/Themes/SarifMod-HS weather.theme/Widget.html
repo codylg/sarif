@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<!-- CHANGE SETTINGS IN SARIF.THEME/SETTINGS.JS -->
+
+<html lang='en-US'>
+<head>
+	<meta charset="UTF-8"/>
+	<script src='../Sarif.theme/settings.js'></script>
+	<script src='../Sarif.theme/docs/js/jquery-1.9.1.js'></script>
+	<script src='../Sarif.theme/docs/js/simpleWeather.js'></script>
+	<script>
+		function setTop(){
+			weatherTop = weatherTop / 2;
+
+			var setTop = document.getElementById('hsweatherdiv');
+			setTop.style.margin=weatherTop+'px auto';
+			
+			var setSize = document.getElementById('weather');
+			setSize.style.fontSize=weatherSize+'em';
+		}
+		$(document).ready(setTop);
+
+		function setStyle(){
+			var setWeatherStyle = document.getElementById('weather');
+			setWeatherStyle.style.opacity=weatherOpacity;
+
+			if (weatherStyle == 'light'){
+				setWeatherStyle.style.color='rgba(255,255,255,0.75)';
+				setWeatherStyle.style.textShadow='1px 1px 0px rgba(0,0,0,0.25)';
+			}
+
+			else if (weatherStyle == 'dark'){
+				setWeatherStyle.style.color='rgb(30,30,30)';
+				setWeatherStyle.style.textShadow='1px 1px 1px rgba(255,255,255,0.1), -1px -1px 1px rgba(0,0,0,0.1)';
+			}
+
+			else if (weatherStyle == 'glow'){
+				setWeatherStyle.style.color='rgb(255,255,255)';
+				setWeatherStyle.style.textShadow='0px 0px 30px rgb(255,255,255)';
+				setWeatherStyle.style.fontFamily='HelveticaNeue-UltraLight';
+			}
+		}
+		$(document).ready(setStyle);
+		
+		function timedRefresh(timeoutPeriod) {
+			setTimeout('location.reload(true);',timeoutPeriod);
+		}
+	</script>
+	<style>
+		body{
+			width:320px;
+			margin:0px; padding:0px;
+			font-family:Helvetica-Light;
+			}
+
+		#weather{
+			position:absolute;
+			width:320px;
+			text-align:center; text-transform:lowercase;
+			letter-spacing:1px;
+			}
+
+		#weathericon{
+			display:none;
+			}
+	</style>
+</head>
+<body onload='timedRefresh(300000);'>
+	<div id='hsweatherdiv'>
+		<p id='weather'></p>
+	</div>
+</body>
+</html>

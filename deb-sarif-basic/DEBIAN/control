@@ -1,0 +1,10 @@
+Package: com.codylg.sarifbasic
+Name: Sarif
+Version: 2.3
+Architecture: iphoneos-arm
+Author: Cody-lg <contact@codylg.com>
+dev: Cody-lg
+Depends: winterboard,com.darkweaver.wallpaperjpegifier,com.codylg.sarifprefs
+Priority: extra
+Section: Themes (Complete)
+Description: Sarif Winterboard theme.

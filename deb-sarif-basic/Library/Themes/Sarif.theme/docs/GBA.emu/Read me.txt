@@ -1,0 +1,4 @@
+These buttons need to be manually added.
+Copy the png to:
+
+   /Applications/GbaEmu.app

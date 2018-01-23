@@ -1,0 +1,4 @@
+These toggles need to be manually added.
+Copy the WeeButtons folder to:
+
+   /var/mobile/Library/kBatteryDoctorPro/Images

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TimeStyle</key>
+	<string>font-size:8px;</string>
+
+	<key>DockedIconLabelStyle</key>
+	<string>opacity:0</string>
+
+	<key>UndockedIconLabelStyle</key>
+	<string>opacity:0</string>
+
+	<key>BadgeStyle</key>
+	<string>color:rgba(0,0,0,0.75); font-size:0.75em; text-shadow:1px 1px 0px rgba(255,255,255,0.2);</string>
+</dict>
+</plist>

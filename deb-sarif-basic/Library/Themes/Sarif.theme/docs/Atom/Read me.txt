@@ -1,0 +1,4 @@
+These graphics need to be manually added.
+Copy the images folder to:
+
+   /Library/atom

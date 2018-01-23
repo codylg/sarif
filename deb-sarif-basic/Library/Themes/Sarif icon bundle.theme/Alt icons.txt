@@ -1,0 +1,22 @@
+Alternate icons exist for the following.
+They can be used by removing "_alt" from the file name.
+
+A list of alternate graphics can be found at Sarif.theme/Alt graphics.txt
+
+
+App						Bundle
+---						------
+Camera					com.apple.camera
+Chrome					com.google.chrome.ios
+Clock					com.apple.mobiletimer
+Contacts				com.apple.contacts
+Cydia					com.saurik.Cydia
+Folder					com.apple.springboard
+Google maps				com.google.Maps
+Mailbox					com.orchestra.v2
+Notes					com.apple.mobilenotes
+Passbook				com.apple.Shoebox
+Rotation lock			com.apple.springboard
+Sparrow					com.sparrowmailapp.iphoneapp
+Winterboard				com.saurik.WinterBoard
+Youtube					com.google.ios.youtube

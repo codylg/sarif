@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BadgeStyle</key>
+	<string>color:rgba(255,255,255,0.75); font-size:0.75em; text-shadow:0px 0px 1px rgba(0,0,0,0.5),0px 0px 10px rgba(0,0,0,0.35);</string>
+</dict>
+</plist>

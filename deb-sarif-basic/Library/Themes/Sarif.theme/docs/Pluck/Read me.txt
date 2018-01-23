@@ -1,0 +1,4 @@
+These buttons need to be manually added.
+Copy the two icon pngs to:
+
+   /Library/Application Support/Pluck
